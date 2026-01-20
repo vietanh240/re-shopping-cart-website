@@ -6,8 +6,8 @@ spring:
     name: re-shopping-cart-web-app
 
   profiles:
-    # active: prod # Production development
-    active: local # Local development
+    active: prod # Production development
+    #active: local # Local development
 
   datasource:
     # Local defaults (override via env vars if needed)
